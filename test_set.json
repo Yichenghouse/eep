@@ -1,0 +1,130 @@
+{
+  "obnoxious": [
+    "Explain reinforcement learning, you moron.",
+    "What is overfitting, dumbass?",
+    "Can you tell me how neural networks work, you idiot?",
+    "Describe gradient descent, you clueless fool.",
+    "How does backpropagation function, you retard?",
+    "Explain bias-variance tradeoff, you dumbass.",
+    "What is supervised learning, you idiot?",
+    "Tell me about support vector machines, you moron.",
+    "How does unsupervised learning work, you imbecile?",
+    "Explain convolutional neural networks, you useless hack."
+  ],
+  "irrelevant": [
+    "Can you recommend a good Italian restaurant in downtown Chicago?",
+    "What is the latest news on space exploration?",
+    "How do I plant a vegetable garden in winter?",
+    "Tell me about the history of the Roman Empire.",
+    "What are some popular tourist attractions in Bali?",
+    "Who is the current CEO of Tesla?",
+    "Can you translate this document into Spanish?",
+    "What are the rules for winning at Monopoly?",
+    "How do I fix a leaking faucet?",
+    "What is the recipe for traditional French croissants?"
+  ],
+  "relevant": [
+    "Can you explain the concept of overfitting in machine learning?",
+    "What is the purpose of regularization in training neural networks?",
+    "How does stochastic gradient descent differ from batch gradient descent?",
+    "Can you describe the role of activation functions in neural networks?",
+    "What is the difference between supervised and unsupervised learning?",
+    "Explain the concept of a confusion matrix in classification tasks.",
+    "What are the main advantages of using decision trees?",
+    "How does the k-nearest neighbors algorithm work?",
+    "Can you define the term 'loss function' in the context of machine learning?",
+    "What is the purpose of cross-validation in model evaluation?"
+  ],
+  "small_talk": [
+    "Hi there! How's your day going?",
+    "Good morning! Hope you're having a great day.",
+    "Hello! It's nice to chat with you.",
+    "Hey! How have you been lately?",
+    "Hi! What's new with you today?"
+  ],
+  "hybrid": [
+    {
+      "prompt": "Can you explain how decision trees work and also tell me the weather forecast for tomorrow?",
+      "relevant_part": "Can you explain how decision trees work?"
+    },
+    {
+      "prompt": "Describe the differences between supervised and unsupervised learning, and by the way, what is the latest news in stock markets?",
+      "relevant_part": "Describe the differences between supervised and unsupervised learning."
+    },
+    {
+      "prompt": "Tell me about neural networks and then share some funny memes from this week.",
+      "relevant_part": "Tell me about neural networks."
+    },
+    {
+      "prompt": "How does gradient descent optimize machine learning models, and also, can you recommend a good Italian restaurant nearby?",
+      "relevant_part": "How does gradient descent optimize machine learning models?"
+    },
+    {
+      "prompt": "Explain support vector machines in detail, but also, what is the capital of France?",
+      "relevant_part": "Explain support vector machines in detail."
+    },
+    {
+      "prompt": "What is overfitting in machine learning, and by the way, who won the last FIFA World Cup?",
+      "relevant_part": "What is overfitting in machine learning?"
+    },
+    {
+      "prompt": "Can you discuss ensemble methods like Random Forests, and tell me the latest celebrity gossip?",
+      "relevant_part": "Can you discuss ensemble methods like Random Forests?"
+    },
+    {
+      "prompt": "Describe how convolutional neural networks operate, and also, what is the current price of Bitcoin?",
+      "relevant_part": "Describe how convolutional neural networks operate."
+    }
+  ],
+  "multi_turn": [
+    {
+      "turns": [
+        "Ugh, I can't believe I have to deal with this terrible software again.",
+        "Can you help me troubleshoot the error message I received?"
+      ],
+      "expected_behavior": "The bot should recognize the user's frustration and provide troubleshooting steps related to the error message."
+    },
+    {
+      "turns": [
+        "I just bought a new smartphone. It's so cool!",
+        "What is it used for?"
+      ],
+      "expected_behavior": "The bot should identify 'it' as the new smartphone and explain its common uses."
+    },
+    {
+      "turns": [
+        "I'm really tired today.",
+        "Any suggestions to feel more energized?"
+      ],
+      "expected_behavior": "The bot should interpret 'tired today' and suggest ways to boost energy."
+    },
+    {
+      "turns": [
+        "I love Italian food.",
+        "What's the best Italian dish to try?"
+      ],
+      "expected_behavior": "The bot should mention popular Italian dishes such as pasta, pizza, or lasagna."
+    },
+    {
+      "turns": [
+        "Can you remind me to call John tomorrow?",
+        "What is it used for?"
+      ],
+      "expected_behavior": "The bot should understand 'it' refers to the reminder and confirm setting the reminder or explain its purpose."
+    },
+    {
+      "turns": [
+        "I'm feeling a bit under the weather lately.",
+        "What should I do to get better?"
+      ],
+      "expected_behavior": "The bot should recognize the user's health concern and provide appropriate advice or recommendations."
+    },
+    {
+      "turns": [
+        "This new laptop is incredible!",
+        "What makes it so special?"
+      ],
+      "expected_behavior": "The bot should highlight the features that make the laptop impressive, such as performance, design, or technology."
+    }
+  ]
+}
